@@ -7,3 +7,5 @@ install:
 notifications:
   email:
     - saikatdas.bca@gmail.com
+script:
+  - python hello.py
