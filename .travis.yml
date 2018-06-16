@@ -1,11 +1,11 @@
- language: python
-  python:
-    - "3.6.5"
-  # command to install dependencies
+language: python
+python:
+  - "3.6.5"
+# command to install dependencies
 install:
   - pip install -r requirements.txt
 notifications:
   email:
     - saikatdas.bca@gmail.com
-  script:
-    - pytest
+script:
+  - pytest
