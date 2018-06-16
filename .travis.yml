@@ -4,5 +4,8 @@
   # command to install dependencies
 install:
   - pip install -r requirements.txt
+notifications:
+  email:
+    - saikatdas.bca@gmail.com
   script:
     - pytest
